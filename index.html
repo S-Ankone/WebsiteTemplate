@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<!-- Comments in this document are to clarify what to change in this template, and what not to -->
+
+<html>
+<head>
+	<meta lang="Eng"/> <!-- language on the page -->
+	<meta charset="UTF-8"/> <!-- base type of characters -->
+	
+	<meta name="robots" content="noindex nofollow"/> <!-- Sets desired behavior or Spiders/Crawlers -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Sets default behavior based on viewport/device -->
+	<link rel="stylesheet" type="text/css" href="./css/default_style.css"/> <!-- link to CSS file for BASE/DEFAULT styling --> 
+	<link rel="stylesheet" type="text/css" href="./css/text_style.css"/> <!-- link to CSS file for all TEXT styling --> 
+	<link rel="stylesheet" type="text/css" href="./css/page_style.css"/> <!-- link to CSS file for PAGE Specific styling, change per page --> 
+	<link rel="stylesheet" type="text/css" href="./css/media_style.css"/> <!-- link to CSS file for @media control and changes -->	
+	
+	<title>This is a base template for a website</title> <!-- Text in the Browser TAB -->
+	<meta name="description" content="Fill in the description of this site"/> <!-- Description of this site -->
+	<meta name="keywords" content="Set, The, Keywords, For, This, Site"/>	<!-- Keywords associated with the content of this site -->
+</head>
+<body>
+	<div class="top_container fixed"> <!-- Container for the top section of the site, generally for navigation -->
+
+		<nav> <!-- The actual navigation bar/container for the nav options -->
+				<div id="brand">
+					<button id="brand_btn" class="nav_btn" onclick="document.location = '#top'">
+						<h3>Branding</h3></button>
+				</div>
+				<div id="ham_menu">
+					<button id="ham" class="nav_btn">
+						<div class="ham_burger"></div>			<!-- Hamburger Icon goes here -->
+						<div class="ham_burger"></div>
+						<div class="ham_burger"></div>
+					</button>
+				</div>	
+				<div id="nav_links">
+					<div class="semi_button"><a class="nav_link" alt="nav_button" href="#bottom">Page 2</a></div>
+					<div class="semi_button"><a class="nav_link" alt="nav_button" href="#bottom">About</a></div>
+					<div class="semi_button"><a class="nav_link" alt="nav_button" href="#bottom">Contact</a></div>
+				</div>	
+				<div id="nav_options">
+					<button class="nav_btn" onclick="document.location = '#'">Page 2</button>	
+					<button class="nav_btn" onclick="document.location = '#'">About</button>				
+					<button class="nav_btn" onclick="document.location = '#'">Contact</button>			
+				</div>
+				<div id="login">
+					<button class="nav_btn" onclick="document.location='#'">Log in</button>
+				</div>
+			</nav>
+	</div>
+
+<!-- topTag -->	
+<div id="top" class="tag"></div>	
+
+	<div class="main_container"> <!-- Container for the main-content -->
+		<section class="jumbotron">   <!-- might be REMOVE(D) for other pages -->
+			<h1>SET your LANDING Text</h1>
+			<p>Some text here as some extra welcome text</p>
+		</section>
+		<main> 	
+			<section>
+				<article>
+					<h2>Section Heading</h2>
+					<p>Here the text for this section <strong>just add w/e your text will be</strong> 
+					if you use this you should be somewhat familiar with building sites. But if you 
+					are entirely new <em>go ahead and get started</em> typing and experimenting 
+					that is.</p>
+					<cite></cite>
+				</article>
+			</section>
+		<hr/>	
+			<section class="cards_section">
+				<article class="card">
+					<h3>Some Titel</h3>
+					<img class="article_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/>
+					<p>with some text going here, maybe even a link?</p>
+					<a class="inline" href="#" target="_blank">some link</a>
+				</article>
+				<article class="card">
+					<h3>Some Titel</h3>
+					<img class="article_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/>
+					<p>with some text going here, maybe even a link?</p>
+					<a class="inline" href="#" target="_blank">some link</a>
+				</article>
+				<article class="card">
+					<h3>Some Titel</h3>				
+					<img class="article_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/>
+					<p>with some text going here, maybe even a link?</p>
+					<a class="inline" href="#" target="_blank">some link</a>
+				</article>	
+			</section>
+		<hr/>
+			<h2>Section Heading</h2>
+			<section class="img_grid">
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>
+				<picture class="frame">
+					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>				
+			</section>
+		</main>
+	<div id="bottom" class="tag"></div>	
+		<footer>
+			<div class="semi_button"><a class="nav_link" alt="nav_button2top" href="#top">totop</a></div>
+			<address>
+				<p>your feet go here</p>
+			</address>
+		</footer>
+	</div>			
+	<div class="bottom_container fixed"> <!-- Container for a 'fixed' general 'footer' -->
+		- Base Template - copyrights &copy; 2020 - <a href="#">Privacy Statement</a> - <a href="#">Terms of Use</a> -</p>
+	</div>
+</body>
+</html>
