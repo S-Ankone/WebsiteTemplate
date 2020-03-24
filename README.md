@@ -6,4 +6,3 @@ which will be mainly in JScript, NodeJS and PhP. By having a site template
 no time has to be spend in setting up the basics and projects can more easily
 be integrated into .html 
 
-https://s-ankone.github.io/WebsiteTemplate/
