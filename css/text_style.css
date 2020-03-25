@@ -24,9 +24,6 @@ h3{
 	padding: 0.2rem;
 	}
 
-.nav_btn{
-	font-size: 1.5rem;
-	}
 
 p{
 	font-size: 1.5rem;
@@ -40,12 +37,13 @@ p.white{
 
 strong{
 	font-size: 1.5rem;
-}
+	}
 
 em{
 	font-size: 1.5rem;
 	font-style: italic;
 	}
+
 
 a.inline:link{font-size: 1.5rem; text-decoration: none;}
 a.inline:hover{text-decoration: underline;}
@@ -53,26 +51,21 @@ a.inline:visited{ }
 a.inline:active{ }
 
 
-	
 a.nav_link:link{
 	font-size: 1.5rem;
-	padding: 0.2rem;
+	padding: 1rem;
 	margin: auto;
 	text-decoration: none;
-	}	
-	
-	
-a.nav_link:hover{	
-	text-decoration: none; }
-a.nav_link:visited{	text-decoration: none; }
-a.nav_link:active{	text-decoration: none; }
+	display: block;	}	
+a.nav_link:hover{ text-decoration: none; }
+a.nav_link:visited{ text-decoration: none; }
+a.nav_link:active{ text-decoration: none; }
 	
 	
 a:link{
 	font-size: ;
 	text-decoration: none;}	
-a:hover{	
-	text-decoration: none; }
-a:visited{	text-decoration: none; }
-a:active{	text-decoration: none; }
+a:hover{ text-decoration: none; }
+a:visited{ text-decoration: none; }
+a:active{ text-decoration: none; }
 

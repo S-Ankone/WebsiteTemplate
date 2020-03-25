@@ -23,31 +23,25 @@
 	<div class="top_container fixed"> <!-- Container for the top section of the site, generally for navigation -->
 
 		<nav> <!-- The actual navigation bar/container for the nav options -->
-				<div id="brand">
-					<button id="brand_btn" class="nav_btn" onclick="document.location = '#top'">
-						<h3>Branding</h3></button>
+			<div id="brand">
+				<div id="brand_btn" class="semi_btn"><a class="nav_link" href="#top"><h3>Brand</h3></a></div>
+			</div>
+			<div id="ham_menu">								<!-- Hamburger Icon goes here -->
+				<div id="ham" class="semi_btn">
+					<div class="ham_burger"></div>			
+					<div class="ham_burger"></div>
+					<div class="ham_burger"></div>
 				</div>
-				<div id="ham_menu">
-					<button id="ham" class="nav_btn">
-						<div class="ham_burger"></div>			<!-- Hamburger Icon goes here -->
-						<div class="ham_burger"></div>
-						<div class="ham_burger"></div>
-					</button>
-				</div>	
-				<div id="nav_links">
-					<div class="semi_button"><a class="nav_link" alt="nav_button" href="#bottom">Page 2</a></div>
-					<div class="semi_button"><a class="nav_link" alt="nav_button" href="#bottom">About</a></div>
-					<div class="semi_button"><a class="nav_link" alt="nav_button" href="#bottom">Contact</a></div>
-				</div>	
-				<div id="nav_options">
-					<button class="nav_btn" onclick="document.location = '#'">Page 2</button>	
-					<button class="nav_btn" onclick="document.location = '#'">About</button>				
-					<button class="nav_btn" onclick="document.location = '#'">Contact</button>			
-				</div>
-				<div id="login">
-					<button class="nav_btn" onclick="document.location='#'">Log in</button>
-				</div>
-			</nav>
+			</div>	
+			<div id="nav_links">
+				<div class="semi_btn"><a class="nav_link" href="#bottom">Page 2</a></div>
+				<div class="semi_btn"><a class="nav_link" href="#bottom">About</a></div>
+				<div class="semi_btn"><a class="nav_link" href="#bottom">Contact</a></div>
+			</div>	
+			<div id="login">
+				<div id="login_btn" class="semi_btn"><a class="nav_link" href="#">Log in</a></div>
+			</div>
+		</nav>
 	</div>
 
 <!-- topTag -->	
@@ -114,10 +108,10 @@
 				<picture class="frame">
 					<img class="gallery_img" src="./img/pattern.jpg" title="trippy" alt="grid pattern"/></picture>				
 			</section>
+	<div id="to_top" class="semi_btn"><a class="nav_link" href="#top">Top</a></div>			
 		</main>
 	<div id="bottom" class="tag"></div>	
 		<footer>
-			<div class="semi_button"><a class="nav_link" alt="nav_button2top" href="#top">totop</a></div>
 			<address>
 				<p>your feet go here</p>
 			</address>
